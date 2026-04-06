@@ -1,4 +1,22 @@
 {
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ElianUlman/TP3-NodeModulos#readme",
+  "bugs": {
+    "url": "https://github.com/ElianUlman/TP3-NodeModulos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElianUlman/TP3-NodeModulos.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "express": "^5.2.1"
   }
