@@ -1,7 +1,10 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
 async function obtenerPais(nombrePais) {
+
     try {
-        const  respuesta = await fetch(`https://restcountries.com/v3.1/name/${nombrePais}`);
-        
+        const respuesta = await fetch(`https://restcountries.com/v3.1/name/${nombrePais}`);
+
         if (!respuesta.ok) {
             throw new Error("País no encontrado");
         }
@@ -10,6 +13,7 @@ async function obtenerPais(nombrePais) {
 
         const pais = datos[0];
 
+        console.clear()
         console.log("--- Información del País ---");
         console.log(`País: ${pais.name.common}`);
         console.log(`Capital: ${pais.capital ? pais.capital[0] : "N/A"}`);
@@ -19,6 +23,7 @@ async function obtenerPais(nombrePais) {
     } catch (error) {
         console.error("Error:", error.message);
     }
+
 }
 
 
