@@ -15,6 +15,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "7": "node src/ej07.js",
+    "8": "node src/ej08.js",
+    "9": "node src/ej09.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
