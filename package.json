@@ -1,5 +1,26 @@
 {
+  "name": "nodejstp03",
+  "version": "1.0.0",
+  "description": "tp de nodejs basico",
+  "homepage": "https://github.com/ElianUlman/nodeJsTestTP02#readme",
+  "bugs": {
+    "url": "https://github.com/ElianUlman/nodeJsTestTP02/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElianUlman/nodeJsTestTP02.git"
+  },
+  "license": "ISC",
+  "author": "LucaGamasDeMaio, BenjaminHamraMinian, ElianRubenUlman",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "ej04": "node src/ej04.js",
+    "ej05": "node src/ej05.js",
+    "ej06": "node src/ej06.js"
+  },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "undici": "^8.0.2"
   }
 }
