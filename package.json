@@ -17,7 +17,11 @@
   "scripts": {
     "ej04": "node src/ej04.js",
     "ej05": "node src/ej05.js",
-    "ej06": "node src/ej06.js"
+    "ej06": "node src/ej06.js",
+    "7": "node src/ej07.js",
+    "8": "node src/ej08.js",
+    "9": "node src/ej09.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^5.2.1",
