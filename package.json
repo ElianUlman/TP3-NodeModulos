@@ -1,5 +1,27 @@
 {
+  "name": "nodejstp03",
+  "version": "1.0.0",
+  "description": "tp de nodejs basico",
+  "homepage": "https://github.com/ElianUlman/TP3-NodeModulos#readme",
+  "bugs": {
+    "url": "https://github.com/ElianUlman/TP3-NodeModulos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElianUlman/TP3-NodeModulos.git"
+  },
+  "license": "ISC",
+  "author": "LucaGamasDeMaio, BenjaminHamraMinian, ElianRubenUlman",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "ej01": "node src/ej01.js",
+    "ej02": "node src/ej02.js",
+    "ej03": "node src/ej03.js"
+  },
   "dependencies": {
-    "express": "^5.2.1"
+    "dayjs": "^1.11.20",
+    "express": "^5.2.1",
+    "undici": "^8.0.2"
   }
 }
