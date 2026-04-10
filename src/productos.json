@@ -6,5 +6,9 @@
   {
     "nombre": "Teclado",
     "precio": 3500
+  },
+  {
+    "nombre": "Monitor",
+    "precio": 120000
   }
 ]

@@ -30,5 +30,6 @@ app.get("/ej08/:text", (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log("localhost:"+PORT)
+        console.log(`localhost:${PORT}/ej08/*ESCRIBI-UNA-PALABRA-ACA*`)
+
 })
